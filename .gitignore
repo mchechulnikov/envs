@@ -1,0 +1,10 @@
+# DevBox generated files
+.devbox/*
+!.devbox/welcome.sh
+
+# General
+.DS_Store
+*.log
+*.tmp
+.env
+.env.local
