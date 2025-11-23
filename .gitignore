@@ -1,6 +1,10 @@
 # DevBox generated files
 .devbox/*
 !.devbox/welcome.sh
+!.devbox/setup-nvim.sh
+
+# Neovim
+.config/nvim/lazy-lock.json
 
 # General
 .DS_Store
