@@ -19,7 +19,16 @@
     "wireguard@latest",
     "zellij@latest",
     "httpie@latest",
-    "docker@latest"
+    "docker@latest",
+    "yazi@latest",
+    "nerd-fonts.fira-code@latest",
+    "file@latest",
+    "ffmpeg@latest",
+    "jq@latest",
+    "poppler@latest",
+    "fd@latest",
+    "zoxide@latest",
+    "resvg@latest"
   ],
   "shell": {
     "init_hook": [
