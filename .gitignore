@@ -2,6 +2,7 @@
 .devbox/*
 !.devbox/welcome.sh
 !.devbox/setup-nvim.sh
+!.devbox/test-nvim.sh
 
 # Neovim
 .config/nvim/lazy-lock.json

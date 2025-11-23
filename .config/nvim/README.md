@@ -1,6 +1,6 @@
 # Neovim Configuration
 
-LazyVim-based configuration with comprehensive LSP support, managed through DevBox.
+Lazy.nvim-based configuration with comprehensive LSP support, managed through DevBox.
 
 ## Features
 
@@ -51,6 +51,29 @@ This will:
 1. Install all LSP servers and tools via DevBox
 2. Link the nvim config from this repository to `~/.config/nvim`
 3. On first nvim launch, Lazy.nvim will install all plugins automatically
+
+### Testing Setup
+
+To test that everything is working correctly:
+
+```bash
+# Inside devbox shell
+.devbox/test-nvim.sh
+```
+
+This will verify:
+- Neovim is available
+- Config is properly linked
+- All plugins can be synced
+
+### First Time Setup
+
+When you first open nvim, it will:
+1. Clone lazy.nvim plugin manager
+2. Install all configured plugins
+3. Setup LSP servers via Mason
+
+This may take a few minutes. Just wait for all plugins to install.
 
 ## LSP Servers Included
 
