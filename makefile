@@ -13,3 +13,6 @@ help:		# prints this help
 
 myip:		# show external IP
 	@ dig @resolver4.opendns.com myip.opendns.com +short
+
+dev:		# run devbox shell
+	devbox shell

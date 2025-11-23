@@ -23,7 +23,8 @@
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "./.devbox/welcome.sh",
+      "exec fish"
     ],
     "scripts": {
       "test": [
