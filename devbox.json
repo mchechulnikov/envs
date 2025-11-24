@@ -41,8 +41,7 @@
     "nodePackages.dockerfile-language-server-nodejs@latest",
     "nodePackages.yaml-language-server@latest",
     "nodePackages.vscode-langservers-extracted@latest",
-    "nodePackages.tailwindcss@latest",
-    "gcc@latest"
+    "nodePackages.tailwindcss@latest"
   ],
   "shell": {
     "init_hook": [
