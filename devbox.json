@@ -31,21 +31,10 @@
     "resvg@latest",
     "ripgrep@latest",
     "nodejs@latest",
-    "python3@latest",
-    "lua-language-server@latest",
-    "rust-analyzer@latest",
-    "gopls@latest",
-    "nodePackages.typescript-language-server@latest",
-    "nodePackages.pyright@latest",
-    "nodePackages.bash-language-server@latest",
-    "nodePackages.dockerfile-language-server-nodejs@latest",
-    "nodePackages.yaml-language-server@latest",
-    "nodePackages.vscode-langservers-extracted@latest",
-    "nodePackages.tailwindcss@latest"
+    "python3@latest"
   ],
   "shell": {
     "init_hook": [
-      "./.devbox/setup-nvim.sh",
       "./.devbox/welcome.sh",
       "exec fish"
     ],
