@@ -1,10 +1,15 @@
 #!/bin/sh
 
 echo ""
+echo "  ███╗   ███╗██╗  ██╗ ██████╗██╗  ██╗██╗   ██╗"
+echo "  ████╗ ████║╚██╗██╔╝██╔════╝██║  ██║██║   ██║"
+echo "  ██╔████╔██║ ╚███╔╝ ██║     ███████║██║   ██║"
+echo "  ██║╚██╔╝██║ ██╔██╗ ██║     ██╔══██║╚██╗ ██╔╝"
+echo "  ██║ ╚═╝ ██║██╔╝ ██╗╚██████╗██║  ██║ ╚████╔╝ "
+echo "  ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝  ╚═══╝  "
+echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
-
-# Short welcome message
 echo "  🚀 DevBox Development Environment"
 echo ""
 echo "  Type 'dev-help' to see all available tools and commands"
