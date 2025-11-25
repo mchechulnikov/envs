@@ -1,22 +1,17 @@
 # Starship configuration
-# Uses nerd font symbols - make sure you have a Nerd Font installed
+# Simple style without rounded separators
 
 format = """
-[](#9A348E)\
+⟶ \
 $username\
-[](bg:#DA627D fg:#9A348E)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#86BBD8)\
 $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:#86BBD8 bg:#06969A)\
 $docker_context\
-[](fg:#06969A)\
 $character"""
 
 # Disable the blank line at the start of the prompt
@@ -24,55 +19,55 @@ $character"""
 
 # Username
 [username]
-show_always = false
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
-format = '[ $user ]($style)'
+show_always = true
+style_user = "purple bold"
+style_root = "red bold"
+format = '[$user]($style) '
 disabled = false
 
 # Directory
 [directory]
-style = "bg:#DA627D"
-format = "[ $path ]($style)"
+style = "cyan bold"
+format = "[$path]($style) "
 truncation_length = 3
 truncation_symbol = "…/"
 
 # Git branch and status
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
-format = '[ $symbol $branch ]($style)'
+style = "yellow bold"
+format = '[$symbol $branch]($style) '
 
 [git_status]
-style = "bg:#FCA17D"
-format = '[$all_status$ahead_behind ]($style)'
+style = "red bold"
+format = '[$all_status$ahead_behind]($style) '
 
 # Programming languages
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
+style = "green"
+format = '[$symbol ($version)]($style) '
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
+style = "red"
+format = '[$symbol ($version)]($style) '
 
 [golang]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
+style = "blue"
+format = '[$symbol ($version)]($style) '
 
 [php]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
+style = "blue"
+format = '[$symbol ($version)]($style) '
 
 # Docker
 [docker_context]
 symbol = ""
-style = "bg:#06969A"
-format = '[ $symbol $context ]($style) $path'
+style = "blue"
+format = '[$symbol $context]($style) '
 
 # Time
 [time]
@@ -80,5 +75,5 @@ disabled = true
 
 # Character - the arrow/prompt symbol
 [character]
-success_symbol = "[ →](bold green)"
-error_symbol = "[ →](bold red)"
+success_symbol = "[⟶](bold green)"
+error_symbol = "[⟶](bold red)"
