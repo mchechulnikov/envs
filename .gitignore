@@ -2,9 +2,13 @@
 .devbox/*
 !.devbox/welcome.sh
 !.devbox/setup-starship.sh
+!.devbox/devbox-info.sh
+!.devbox/fish-functions.fish
+!.devbox/.gitignore
 
-# Neovim
+# Config files
 .config/nvim/lazy-lock.json
+!.config/starship.toml
 
 # General
 .DS_Store
