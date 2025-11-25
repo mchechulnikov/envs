@@ -35,6 +35,7 @@
   ],
   "shell": {
     "init_hook": [
+      "./.devbox/setup-starship.sh",
       "./.devbox/welcome.sh",
       "exec fish"
     ],

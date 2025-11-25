@@ -1,8 +1,7 @@
 # DevBox generated files
 .devbox/*
 !.devbox/welcome.sh
-!.devbox/setup-nvim.sh
-!.devbox/test-nvim.sh
+!.devbox/setup-starship.sh
 
 # Neovim
 .config/nvim/lazy-lock.json
@@ -13,3 +12,4 @@
 *.tmp
 .env
 .env.local
+.venv
