@@ -31,7 +31,8 @@
     "resvg@latest",
     "ripgrep@latest",
     "nodejs@latest",
-    "python3@latest"
+    "python3@latest",
+    "claude-code@latest"
   ],
   "shell": {
     "init_hook": [
