@@ -32,7 +32,10 @@
     "ripgrep@latest",
     "nodejs@latest",
     "python3@latest",
-    "claude-code@latest"
+    "claude-code@latest",
+    "cbonsai@latest",
+    "sl@latest",
+    "cmatrix@latest"
   ],
   "shell": {
     "init_hook": [
