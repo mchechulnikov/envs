@@ -35,7 +35,9 @@
     "claude-code@latest",
     "cbonsai@latest",
     "sl@latest",
-    "cmatrix@latest"
+    "cmatrix@latest",
+    "duf@latest",
+    "dust@latest"
   ],
   "shell": {
     "init_hook": [
