@@ -1082,8 +1082,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-02-01T22:02:28Z",
-      "resolved": "github:NixOS/nixpkgs/eb8d947de7b05897b2b5f4117d184f9c9846cd06?lastModified=1769983348"
+      "last_modified": "2026-02-03T17:56:14Z",
+      "resolved": "github:NixOS/nixpkgs/41965737c1797c1d83cfb0b644ed0840a6220bd1?lastModified=1770141374"
     },
     "grex@latest": {
       "last_modified": "2026-01-23T17:20:52Z",
