@@ -37,7 +37,8 @@
     "sl@latest",
     "cmatrix@latest",
     "duf@latest",
-    "dust@latest"
+    "dust@latest",
+    "codex@latest"
   ],
   "shell": {
     "init_hook": [
