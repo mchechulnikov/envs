@@ -38,7 +38,10 @@
     "cmatrix@latest",
     "duf@latest",
     "dust@latest",
-    "codex@latest"
+    "codex@latest",
+    "bun@latest",
+    "ghostscript@latest",
+    "lazygit@latest"
   ],
   "shell": {
     "init_hook": [
