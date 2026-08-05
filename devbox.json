@@ -32,7 +32,6 @@
     "ripgrep@latest",
     "nodejs@latest",
     "python3@latest",
-    "claude-code@latest",
     "cbonsai@latest",
     "sl@latest",
     "cmatrix@latest",
@@ -41,10 +40,12 @@
     "codex@latest",
     "bun@latest",
     "ghostscript@latest",
-    "lazygit@latest"
+    "lazygit@latest",
+    "github:vladar107/claudescope"
   ],
   "shell": {
     "init_hook": [
+      "export PATH=\"$HOME/.local/bin:$PATH\"",
       "./.devbox/setup-starship.sh",
       "./.devbox/welcome.sh",
       "exec fish"
