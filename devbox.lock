@@ -1106,6 +1106,10 @@
       "last_modified": "2026-08-03T09:05:39Z",
       "resolved": "github:NixOS/nixpkgs/104240a772428cc2e20d8fd86c9ddbb886bbaff2?lastModified=1785747939"
     },
+    "github:umputun/revdiff": {
+      "last_modified": "2026-08-05T06:43:43Z",
+      "resolved": "github:umputun/revdiff/98a25b5f9a4cb8b179fd1ac8e3562a108ca335f6?lastModified=1785912223"
+    },
     "github:vladar107/claudescope": {
       "last_modified": "2026-07-29T16:47:00Z",
       "resolved": "github:vladar107/claudescope/919be29ee85074f4184a0c72ce8359959a2cf4a7?lastModified=1785343620"

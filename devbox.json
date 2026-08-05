@@ -41,7 +41,8 @@
     "bun@latest",
     "ghostscript@latest",
     "lazygit@latest",
-    "github:vladar107/claudescope"
+    "github:vladar107/claudescope",
+    "github:umputun/revdiff"
   ],
   "shell": {
     "init_hook": [
